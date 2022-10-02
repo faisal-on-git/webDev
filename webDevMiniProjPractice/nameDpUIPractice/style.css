@@ -1,0 +1,44 @@
+.container {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .person{
+      width: 60vw;
+    /* margin: 5rem 0; */
+    max-width: 450px;
+   
+  align-items: center;
+  
+    padding: 1.5rem ;
+    column-gap: 0.75rem;
+    /* margin-bottom: 1.5rem; */
+    align-items: center;
+    display:flex;
+    
+  }
+ 
+    .person h2 {
+      margin-bottom: 0.35rem;
+      
+    }
+    .ht{
+      background:white;
+  
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .ct{
+     background: pink;
+     min-height: 300px;
+    }
+    .person img {
+      width: 75px;
+      height: 75px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
